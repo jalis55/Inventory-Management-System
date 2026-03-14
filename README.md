@@ -130,16 +130,16 @@ python backend/manage.py test
 Run a single app test suite:
 
 ```bash
-python backend/manage.py test products
-python backend/manage.py test suppliers
-python backend/manage.py test customers
-python backend/manage.py test sales
-python backend/manage.py test purchases
-python backend/manage.py test dues
-python backend/manage.py test inventory
-python backend/manage.py test reports
-python backend/manage.py test accounts
-python backend/manage.py test core
+python manage.py test products
+python manage.py test suppliers
+python manage.py test customers
+python manage.py test sales
+python manage.py test purchases
+python manage.py test dues
+python manage.py test inventory
+python manage.py test reports
+python bmanage.py test accounts
+python manage.py test core
 ```
 
 Generate the OpenAPI schema:
